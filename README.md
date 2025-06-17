@@ -27,7 +27,7 @@ cd ~/robot_ws/src
 소스코드 복제.
 
 ```
-git clone https://github.com/ros-perception/image_pipeline.git -b foxy
+git clone https://github.com/greattoe/camera_calibration.git
 ```
 
 빌드를 위한 워크스페이스로 작업경로 변경
@@ -429,14 +429,6 @@ unknown control 'focus_auto'
 
 
 `ros2_aruco_node`를 구동해봐도제대로 된 `~/.ros/camera_info/default_cam.yaml`파일의 존재 유무에 따라 `/aruco_makers`토픽 내용이 차이가 나는 것을 확인할 수 있다. 
-
-
-
----
-
-
-
-[튜토리얼 목록](../README.md) 
 
 
 
